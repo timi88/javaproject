@@ -39,7 +39,5 @@
             </Button>
          </children>
       </Pane>
-      <Button mnemonicParsing="false" text="Button" />
-      <Button mnemonicParsing="false" text="Button" />
    </children>
 </AnchorPane>
