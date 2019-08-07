@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.CorrectAnswerController">
+   <children>
+      <Pane layoutX="-6.0" layoutY="-14.0" prefHeight="449.0" prefWidth="485.0">
+         <children>
+            <ImageView fitHeight="457.0" fitWidth="457.0" layoutX="18.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/background/backgroundcorrect.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="184.0" layoutY="116.0" text="Wow!">
+               <font>
+                  <Font size="46.0" />
+               </font>
+            </Label>
+            <Label layoutX="90.0" layoutY="184.0" text="correct answer!">
+               <font>
+                  <Font name="System Bold" size="46.0" />
+               </font>
+            </Label>
+            <Label layoutX="140.0" layoutY="257.0" text="Great work!" textFill="#171717">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnNextQuestion" layoutX="182.0" layoutY="398.0" mnemonicParsing="false" onAction="#nextquestion" text="next question">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Button mnemonicParsing="false" text="Button" />
+      <Button mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>

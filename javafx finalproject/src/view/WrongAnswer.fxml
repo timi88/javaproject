@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.WrongAnswerController">
+   <children>
+     <Pane layoutX="-6.0" layoutY="-14.0" prefHeight="449.0" prefWidth="485.0">
+         <children>
+            <ImageView fitHeight="321.0" fitWidth="485.0" layoutX="6.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/background/keep%20teying.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="142.0" layoutY="328.0" prefHeight="39.0" prefWidth="211.0" text="You are almost there!" textFill="#f8f3f3">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnNextQuestion" layoutX="182.0" layoutY="399.0" mnemonicParsing="false" onAction="#nextquestion" text="next question">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children></Pane>
+   </children>
+</AnchorPane>
